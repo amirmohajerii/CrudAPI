@@ -1,0 +1,19 @@
+@firstAPI_HostAddress = https://localhost:7288
+
+GET {{firstAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{firstAPI_HostAddress}}/weatherforecast
+
+###
+
+POST {{firstAPI_HostAddress}}/api/superhero
+Content-Type: application/json
+
+{
+  //SuperHero
+}
+
+###
